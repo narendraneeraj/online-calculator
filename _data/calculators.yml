@@ -13,10 +13,7 @@
   icon: "fa-ruler"
   color: "#74C0FC"
 
-- name: "Astrology"
-  link: "love-calculator"
-  icon: "fa-heart"
-  color: "#f00557"
+
 
 - name: "Loan Calculator"
   link: "/home-loan-calculator"

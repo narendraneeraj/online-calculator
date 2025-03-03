@@ -5,15 +5,37 @@ permalink: /about/
 description: "Learn more about our website, its purpose, and how it helps users."
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<div class="container">
+  
+<p>Welcome to <strong>eCalcify</strong>, a free online calculator designed to make complex calculations easy and accessible for everyone.</p>
+<h3>Why We Built This</h3>
+<p>We believe that everyone should have access to accurate, easy-to-use, and reliable calculation tools without cost barriers. By making our calculator open-source, we invite developers, educators, and enthusiasts to contribute, improve, and expand its capabilities.</p>
+<h3>Open-Source & Community-Driven</h3>
+<p>Our project is <strong>fully open-source</strong>, and we encourage contributions! If you're a developer, you can check out our <a href="https://github.com/narendraneeraj/online-calculator" class="text-primary">GitHub repository</a>, suggest improvements, or add new features.</p>
+<div class="row mt-4">
+<div class="col-md-12 text-center">
+                <h3>How You Can Help</h3>
+            </div>
+            <div class="col-md-4 text-center">
+                <h5>🚀 Developers</h5>
+                <p>Contribute to the source code, fix bugs, or suggest new features.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <h5>📚 Educators & Students</h5>
+                <p>Use the calculator and provide feedback to improve usability.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <h5>❤️ Supporters</h5>
+                <p>Share our project with others who might find it useful!</p>
+            </div>
+        </div>
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+<div class="row mt-5 text-center">
+            <div class="col-lg-12">
+                <h3>Join Us in Improving the Community</h3>
+                <p>At <strong>[Your Project Name]</strong>, we’re committed to <strong>open knowledge and digital accessibility</strong>. With your support, we can continue developing <strong>better tools for learning, work, and everyday calculations</strong>.</p>
+                <a href="https://github.com/narendraneeraj/online-calculator" class="btn btn-primary mt-3">Contribute on GitHub</a>
+            </div>
+        </div>
+    </div>

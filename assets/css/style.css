@@ -1,17 +1,17 @@
 footer a {
     text-decoration: none;  /* Remove underline */
-    font-size: 14px;
-    color: #f8f9fa; /* Light text color */
+ 
+  
 }
 
 a {
     text-decoration: none;  /* Remove underline */
-    font-size: 14px;
-    color: #f8f9fa; /* Light text color */
+
+
 }
 
 footer a:hover {
-    color: #ddd; /* Slightly dim on hover */
+   
     text-decoration: none; /* Ensure no underline on hover */
 }
 
