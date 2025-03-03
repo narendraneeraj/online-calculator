@@ -1,0 +1,49 @@
+- name: "Age Calculator"
+  link: "age-calculator"
+  icon: "fa-child"
+  color: "#B197FC"
+
+- name: "Speed Converter"
+  link: "/kmp-to-mph"
+  icon: "fa-gauge"
+  color: "#B197FC"
+
+- name: "Length"
+  link: "/length-converter"
+  icon: "fa-ruler"
+  color: "#74C0FC"
+
+- name: "Astrology"
+  link: "love-calculator"
+  icon: "fa-heart"
+  color: "#f00557"
+
+- name: "Loan Calculator"
+  link: "/home-loan-calculator"
+  icon: "fa-landmark"
+  color: "green"
+
+- name: "dBm to Watts"
+  link: "/dbm-to-watt"
+  icon: "fa-tower-broadcast"
+  color: ""
+
+- name: "Temperature"
+  link: "/celsius-to-fahrenheit"
+  icon: "fa-temperature-three-quarters"
+  color: ""
+
+- name: "Num to Word"
+  link: "/number-to-word-converter"
+  icon: "fa-arrow-up-a-z"
+  color: ""
+
+- name: "Strong Password Generator"
+  link: "/strong-password-generator"
+  icon: "fa-lock"
+  color: "#e60f19"
+
+- name: "Percentage Calculator"
+  link: "/percentage-calculator"
+  icon: "fa-percent"
+  color: "#63E6BE"
