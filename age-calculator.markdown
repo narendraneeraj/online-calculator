@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Age Calculator
+title: Age Calculator | Calculate My Age today | find my age
 permalink: /age-calculator/
+description: "Use our free Age Calculator to find your age from your birth date or see the age difference in days. It's quick and easy to find your age today!"
 ---
 
 
