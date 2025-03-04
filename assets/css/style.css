@@ -29,4 +29,8 @@ footer a:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     transform: translateY(-5px);
 }
-s
+
+
+h1.post-title {
+    display: none;
+}
