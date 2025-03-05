@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Free Online Calculator | All type of Calculator
 ---
 
 <div class="container py-5">
