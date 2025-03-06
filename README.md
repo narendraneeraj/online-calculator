@@ -27,7 +27,7 @@
 </li>
 <li>
 <p><strong>Clone</strong> your forked repository:</p>
-<pre><code>git clone [https://github.com/your-username/online-calculator](https://github.com/narendraneeraj/online-calculator).git </code></pre>
+<pre><code>git clone [https://github.com/narendraneeraj/online-calculator.git]</code></pre>
 </li>
 <li>
 <p><strong>Navigate</strong> to the project directory:</p>
