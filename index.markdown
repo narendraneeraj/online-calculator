@@ -2,7 +2,60 @@
 layout: default
 title: Free Online Calculator | All type of Calculator
 ---
+<!-- Calculator start -->
+<main>
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+     <div class="calculator">
+        <input type="text" id="screen" maxlength="20">
+        <div class="calc-buttons">
 
+<div class="functions-one">
+        <button class="button triggers">C</button>
+        <button class="button basic-stuff">(</button>
+        <button class="button basic-stuff">)</button>
+        <button class="button numbers">7</button>
+        <button class="button numbers">8</button>
+        <button class="button numbers">9</button>
+        <button class="button numbers">4</button>
+        <button class="button numbers">5</button>
+        <button class="button numbers">6</button>
+        <button class="button numbers">1</button>
+        <button class="button numbers">2</button>
+        <button class="button numbers">3</button>
+        <button class="button basic-stuff">±</button>
+        <button class="button numbers">0</button>
+        <button class="button basic-stuff">.</button>
+</div>
+    
+        <div class="functions-two">
+            <button class="button triggers">&#60;=</button>
+            <button class="button complex-stuff">%</button>
+            <button class="button complex-stuff">x !</button>
+            <button class="button complex-stuff">x^</button>
+            <button class="button basic-stuff">*</button>
+            <button class="button basic-stuff">/</button>
+            <button class="button complex-stuff">ln</button>
+            <button class="button complex-stuff">e</button>
+            <button class="button basic-stuff">+</button>
+            <button class="button complex-stuff">x ²</button>
+            <button class="button complex-stuff">log</button>
+            <button class="button complex-stuff">cos</button>
+            <button class="button basic-stuff">-</button>
+            <button class="button complex-stuff">√</button>
+            <button class="button complex-stuff">sin</button>
+            <button class="button complex-stuff">tan</button>
+            <button class="button triggers">=</button>
+            <button class="button complex-stuff">&#x003C0;</button>
+            <button class="button complex-stuff">∘</button>
+            <button class="button complex-stuff">rad</button>
+        </div>
+      </div>
+    </div>
+     <!-- End Demo HTML (Happy Coding!)-->
+ </main>
+
+
+<!-- calculator end -->
 <div class="container py-5">
     <h1 class="text-center mb-4">Choose Your Calculator</h1>
     <div class="row g-4 p-3 " >
@@ -60,3 +113,4 @@ title: Free Online Calculator | All type of Calculator
         <li>Currency Converter: Get real-time exchange rates for global currencies.</li>
     </ul>
 </div>
+<script src="{{ '/assets/js/scientific-calculator.js' | relative_url }}"></script>
