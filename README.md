@@ -1,11 +1,11 @@
-online free calculator
+online free calculator ( eCalcify)
 
 
 Online Calculator
 
-Welcome to the Online Calculator project! This is an open-source web-based calculator built using Jekyll. We invite developers, designers, and contributors of all skill levels to collaborate and improve this project.
+Welcome to the eCalcify project! This is an open-source web-based calculator built using Jekyll. We invite developers, designers, and contributors of all skill levels to collaborate and improve this project.
 
-🚀 Features
+🚀 <h2>Features</h2>
 
 Basic arithmetic operations (Addition, Subtraction, Multiplication, Division)
 
@@ -31,7 +31,7 @@ Fork the repository.
 
 Clone your forked repository:
 
-git clone https://github.com/your-username/online-calculator.git
+git clone [https://github.com/narendraneeraj/online-calculator].git
 
 Navigate to the project directory:
 
