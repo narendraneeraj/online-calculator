@@ -487,9 +487,10 @@ h1.post-title {
         
 
 #timer {
-    font-size: 5em;
+    font-size: 6em;
+    text-align: center;
     background: #faf8f8;
-    color: rgb(226, 23, 23);
+   /* // color: rgb(226, 23, 23); */
     padding: 10px 20px;
     border-radius: 10px;
     margin-bottom: 20px;

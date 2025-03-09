@@ -44,3 +44,11 @@
   link: "/percentage-calculator"
   icon: "fa-percent"
   color: "#63E6BE"
+
+- name: "Timer"
+  link: "/timer"
+  icon: "fa-hourglass"
+  color: "#e60f19"
+
+ 
+  

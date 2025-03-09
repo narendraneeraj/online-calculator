@@ -37,7 +37,7 @@ let timerDisplay = document.getElementById('timer');
             clearInterval(timer);
             timer = null;
             elapsedTime = 0;
-            timerDisplay.textContent = "00:00:000";
+            timerDisplay.textContent = "00:00:00";
             timeRecords.innerHTML = ""; // Clear table data
             recordCount = 0;
         }
