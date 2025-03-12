@@ -1,4 +1,4 @@
-footer a {
+a {
     text-decoration: none;  /* Remove underline */
  
   
@@ -10,7 +10,7 @@ a {
 
 }
 
-footer a:hover {
+a:hover {
    
     text-decoration: none; /* Ensure no underline on hover */
 }
