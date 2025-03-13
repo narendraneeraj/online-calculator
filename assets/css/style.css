@@ -520,3 +520,17 @@ h1.post-title {
     border-radius: 10px;
     background-color: #f8f8f8;
 }
+
+#timerDisplay {
+    font-size: 6rem;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 5px solid black; */
+    border-radius: 20px;
+    margin: 20px auto;
+    background-color: #f8f9fa;
+}

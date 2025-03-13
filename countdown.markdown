@@ -20,22 +20,24 @@ permalink: /countdown/
 
 
 
-<div class="col-md-8">
- <h1>Countdown Timer</h1>
-    <h2 id="timerDisplay">0:00</h2>
+<div class="col-md-8 text-center">
+<h1>Countdown Timer</h1>
+    <div id="timerDisplay">0:00</div>
     
-<button class="btn btn-primary m-2" onclick="startTimer(60)">1 Min</button>
-    <button class="btn btn-primary m-2" onclick="startTimer(120)">2 Min</button>
-    <button class="btn btn-primary m-2" onclick="startTimer(600)">10 Min</button>
-    <button class="btn btn-primary m-2" onclick="startTimer(1800)">30 Min</button>
+
     
-<div class="mt-3">
+<div class="py-4">
         <input type="number" id="customTime" class="form-control w-25 d-inline" placeholder="Enter minutes" disabled>
         <button class="btn btn-success" onclick="startCustomTimer()">Start</button>
         <button class="btn btn-warning" onclick="editTime()">Edit Time</button>
         <button class="btn btn-danger" onclick="resetTimer()">Reset</button>
-    </div>
+</div>
 
+ <button class="btn btn-primary m-2" onclick="startTimer(60)">1 Min</button>
+    <button class="btn btn-primary m-2" onclick="startTimer(120)">2 Min</button>
+    <button class="btn btn-primary m-2" onclick="startTimer(600)">10 Min</button>
+    <button class="btn btn-primary m-2" onclick="startTimer(1800)">30 Min</button>
 
 </div>
+<hr class="m-4">
 <script src="{{ '/assets/js/countdown.js' | relative_url }}"></script>

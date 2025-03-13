@@ -10,8 +10,8 @@ description: "Stopwatch New App"
 
 <div class="p-4 mb-2 bg-body-secondary">
       <p class="fs-2"> <a class="text-decoration-none" href="/countdown"><i class="fa-solid fa-stopwatch-20"></i>Countdown</a></p>
-       <p class="fs-2"> <a class="text-decoration-none" href="#"><i class="fa-solid fa-stopwatch"></i> StopWatch</a></p>
-       <p class="fs-2"> <a class="text-decoration-none" href="#"><i class="fa-solid fa-bell"></i> Alarm Clock</a></p>
+      <p class="fs-2"> <a class="text-decoration-none" href="#"><i class="fa-solid fa-stopwatch"></i> StopWatch</a></p>
+      <button type="button" class="btn btn btn-light"><p class="fs-2"> <a class="text-decoration-none" href="#"><i class="fa-solid fa-bell"></i> Alarm Clock</a></p></button>
       <p class="fs-2"> <a class="text-decoration-none" href="/current-time"><i class="fa-solid fa-clock"></i>Time</a></p>
 </div>
 </div>
