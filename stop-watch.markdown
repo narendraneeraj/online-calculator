@@ -9,10 +9,10 @@ description: "Stopwatch New App"
 <div class="col-md-3 bg-light">
 
 <div class="p-4 mb-2 bg-body-secondary">
-      <p class="fs-2"> <a class="text-decoration-none" href="#"><i class="fa-solid fa-stopwatch-20"></i> Timer</a></p>
+      <p class="fs-2"> <a class="text-decoration-none" href="/countdown"><i class="fa-solid fa-stopwatch-20"></i>Countdown</a></p>
        <p class="fs-2"> <a class="text-decoration-none" href="#"><i class="fa-solid fa-stopwatch"></i> StopWatch</a></p>
        <p class="fs-2"> <a class="text-decoration-none" href="#"><i class="fa-solid fa-bell"></i> Alarm Clock</a></p>
-      <p class="fs-2"> <a class="text-decoration-none" href="#"><i class="fa-solid fa-clock"></i>Time</a></p>
+      <p class="fs-2"> <a class="text-decoration-none" href="/current-time"><i class="fa-solid fa-clock"></i>Time</a></p>
 </div>
 </div>
 
@@ -26,7 +26,7 @@ description: "Stopwatch New App"
 <div class="text-center ">
      <button class="btn btn-outline-success fw-bold" onclick="startTimer()">Start</button>
      <button class="btn btn-outline-danger fw-bold" onclick="stopTimer()">Stop</button>
-     <button class="btn btn-outline-warning fw-bold " onclick="resetTimer()">Reset</button>
+     <button class="btn btn-outline-warning  fw-bold " onclick="resetTimer()">Reset</button>
 </div>
 <div class="table-container p-4">
        <table class="table table-striped table-bordered text-center">
