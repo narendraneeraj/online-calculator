@@ -5,7 +5,7 @@ permalink: /contact/
 description: "Have questions or feedback? Contact Ecalcify for support, suggestions, or inquiries. We're here to help you with our 500+ online calculators. Reach out today!"
 ---
 
-
+<h1>Contact US </h1>
 We'd love to hear from you! Feel free to reach out using the details below:
 
 📧 **Email**: [care@ecalcify.com](mailto:care@ecalcify.com)  

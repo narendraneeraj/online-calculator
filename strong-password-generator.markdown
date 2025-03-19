@@ -5,8 +5,6 @@ permalink: /strong-password-generator/
 description: "Generate strong passwords to protect your onlineaccount with our random password generator. Mix letters, numbers and symbols for safe password."
 ---
 
-
-
 <div class="container">
  <div class="row justify-content-start">
    <div class="col-9">

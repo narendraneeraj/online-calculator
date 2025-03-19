@@ -7,6 +7,7 @@ description: "Read the Terms and Conditions of Ecalcify to understand the rules,
 
 <!-- Article Part -->
 <div class="container py-5">
+<h1>Terms and Conditions | eCalcify</h1>
 <p>Last Updated: February 25, 2025</p>
 <p>Please read these terms and conditions carefully before using eCalcify.</p>
 <h2>Interpretation and Definitions</h2>

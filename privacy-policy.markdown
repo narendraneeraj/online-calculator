@@ -4,6 +4,7 @@ title: Privacy Policy – Your Data Security at Ecalcify
 permalink: /privacy-policy/
 description: "At Ecalcify, we prioritize your privacy. Read our Privacy Policy to learn how we handle, protect, and use your data while providing 500+ free online calculators. Your security matters!"
 ---
+<h1>Privacy Policy | eCalcify</h1>
 <p>Last Updated: February 25, 2025</p>
 <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
 <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
