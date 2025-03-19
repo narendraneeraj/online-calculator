@@ -5,10 +5,10 @@ description: "Find the perfect calculator for any task! Use our free online calc
 ---
 <!-- Calculator start -->
 
-     <!-- Start DEMO HTML (Use the following code into your project)-->
-     <div class="calculator">
-        <input type="text" id="screen" maxlength="20">
-        <div class="calc-buttons">
+<!-- Start DEMO HTML (Use the following code into your project)-->
+<div class="calculator">
+  <input type="text" id="screen" maxlength="20">
+<div class="calc-buttons">
 
 <div class="functions-one">
         <button class="button triggers">C</button>
@@ -84,7 +84,6 @@ description: "Find the perfect calculator for any task! Use our free online calc
  <h4><strong>2. Mathematics and Science Calculators</strong></h4><ul><li>Scientific Calculator: Perform advanced functions like logarithms, trigonometry, and exponents.</li> <li>Equation Solver: Solve linear and quadratic equations in seconds.</li><li>Unit Converter: Convert between different units of measurement (e.g., length, weight, temperature).</li></ul>
 
  <h4><strong>3. Everyday Tools</strong></h4><ul><li>Age Calculator: Find out your exact age down to the days!</li><li>Percentage Calculator: Calculate discounts, tips, or proportions.</li><li>Time Zone Converter: Check the time across the globe.</li></ul>
-
 <h4><strong>4. Business Tools</strong></h4><ul><li>Profit Margin Calculator: Analyze your business’s profitability.</li><li>Tax Calculator: Estimate tax liabilities with ease.</li>
 <li>Currency Converter: Get real-time exchange rates for global currencies.</li></ul>
 </div>
