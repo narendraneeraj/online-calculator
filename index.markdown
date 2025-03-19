@@ -4,8 +4,6 @@ title: Free Online Calculator | All type of Calculator
 description: "Find the perfect calculator for any task! Use our free online calculators for finance, health, math, fitness, and more. Fast, accurate, and easy to use—all in one place!"
 ---
 <!-- Calculator start -->
-
-<!-- Start DEMO HTML (Use the following code into your project)-->
 <div class="calculator">
   <input type="text" id="screen" maxlength="20">
 <div class="calc-buttons">
@@ -52,7 +50,7 @@ description: "Find the perfect calculator for any task! Use our free online calc
         </div>
       </div>
     </div>
-     <!-- End Demo HTML (Happy Coding!)-->
+     <!-- End -->
 
 
 
@@ -71,7 +69,7 @@ description: "Find the perfect calculator for any task! Use our free online calc
             </a>
         </div>
         {% endfor %}
-    </div>
+</div>
 
 <p>Welcome to eCalcify! We have a range of free, easy-to-use calculators, conversion tools, and much more! <br>In today’s fast-paced digital world, having access to reliable and accurate tools is essential. Whether you’re crunching numbers, planning your finances, or solving complex equations, online calculators have become indispensable. Our platform offers a one-stop solution for all your calculation needs, combining accuracy, convenience, and a wide variety of free calculators.</p>
 
