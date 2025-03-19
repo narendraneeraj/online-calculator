@@ -522,3 +522,8 @@ a:hover {
     margin: 20px auto;
     background-color: #f8f9fa;
 }
+
+.display {
+    color: blueviolet;
+        font-size: 3em;
+    }

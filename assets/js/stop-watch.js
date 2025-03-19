@@ -1,56 +1,90 @@
-let timerDisplay = document.getElementById('timer');
-        let timeRecords = document.getElementById('timeRecords');
-        let startTime;
-        let timer;
-        let elapsedTime = 0;
-        let recordCount = 0;
-        const maxRecords = 50;
+let stopwatchInterval;
+let elapsedTime = 0;
+let running = false;
+let lapCount = 0;
 
-        function updateTimer() {
-            let now = Date.now() - startTime + elapsedTime;
-            let minutes = Math.floor(now / 60000);
-            let seconds = Math.floor((now % 60000) / 1000);
-            let milliseconds = now % 1000;
-            
-            timerDisplay.textContent = 
-                String(minutes).padStart(2, '0') + ":" +
-                String(seconds).padStart(2, '0') + ":" +
-                String(milliseconds).padStart(3, '0');
-        }
+function toggleStartPause() {
+    if (running) {
+        stopStopwatch();
+        document.getElementById("startPauseBtn").innerText = "Start";
+    } else {
+        startStopwatch();
+        document.getElementById("startPauseBtn").innerText = "Pause";
+    }
+}
 
-        function startTimer() {
-            if (timer) return;
-            startTime = Date.now();
-            timer = setInterval(updateTimer, 10);
-        }
+function startStopwatch() {
+    if (!running) {
+        running = true;
+        const startTime = Date.now() - elapsedTime;
+        stopwatchInterval = setInterval(() => {
+            elapsedTime = Date.now() - startTime;
+            updateStopwatch();
+        }, 10);
+    }
+}
 
-        function stopTimer() {
-            if (timer) {
-                clearInterval(timer);
-                timer = null;
-                elapsedTime += Date.now() - startTime;
-                addRecord(timerDisplay.textContent);
+function stopStopwatch() {
+    running = false;
+    clearInterval(stopwatchInterval);
+}
+
+function resetStopwatch() {
+    running = false;
+    clearInterval(stopwatchInterval);
+    elapsedTime = 0;
+    lapCount = 0;
+    updateStopwatch();
+    document.getElementById("splitTable").innerHTML = "<tr><th>Lap</th><th>Time</th></tr>";
+    document.getElementById("startPauseBtn").innerText = "Start";
+}
+
+function splitTime() {
+    if (running) {
+        lapCount++;
+        const formattedTime = formatTime(elapsedTime);
+        
+        let table = document.getElementById("splitTable");
+        let row = table.insertRow();
+        row.insertCell(0).innerText = lapCount;
+        row.insertCell(1).innerText = formattedTime;
+    }
+}
+
+function updateStopwatch() {
+    document.getElementById('hours').innerText = formatTimePart(Math.floor(elapsedTime / 3600000));
+    document.getElementById('minutes').innerText = formatTimePart(Math.floor((elapsedTime % 3600000) / 60000));
+    document.getElementById('seconds').innerText = formatTimePart(Math.floor((elapsedTime % 60000) / 1000));
+    document.getElementById('centiseconds').innerText = formatTimePart(Math.floor((elapsedTime % 1000) / 10));
+}
+
+function formatTimePart(value) {
+    return String(value).padStart(2, '0');
+}
+
+function formatTime(ms) {
+    const h = formatTimePart(Math.floor(ms / 3600000));
+    const m = formatTimePart(Math.floor((ms % 3600000) / 60000));
+    const s = formatTimePart(Math.floor((ms % 60000) / 1000));
+    const cs = formatTimePart(Math.floor((ms % 1000) / 10));
+    return `${h}:${m}:${s}.${cs}`;
+}
+
+function exportCSV() {
+    let csvContent = "Lap,Time\n";
+    const rows = document.querySelectorAll("#splitTable tr");
+    rows.forEach((row, index) => {
+        if (index > 0) {
+            let cols = row.querySelectorAll("td");
+            if (cols.length > 0) {
+                csvContent += cols[0].innerText + "," + cols[1].innerText + "\n";
             }
         }
+    });
+    let blob = new Blob([csvContent], { type: "text/csv" });
+    let a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "stopwatch_times.csv";
+    a.click();
+}
 
-        function resetTimer() {
-            clearInterval(timer);
-            timer = null;
-            elapsedTime = 0;
-            timerDisplay.textContent = "00:00:00";
-            timeRecords.innerHTML = ""; // Clear table data
-            recordCount = 0;
-        }
-
-        function addRecord(time) {
-            if (recordCount >= maxRecords) {
-                timeRecords.deleteRow(0);
-            } else {
-                recordCount++;
-            }
-            let newRow = timeRecords.insertRow();
-            let cell1 = newRow.insertCell(0);
-            let cell2 = newRow.insertCell(1);
-            cell1.textContent = recordCount;
-            cell2.textContent = time;
-        }
