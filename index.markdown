@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Free Online Calculator | All type of Calculator | eCalcify
+title: Free Online Calculator | All type of Calculator
 description: "Find the perfect calculator for any task! Use our free online calculators for finance, health, math, fitness, and more. Fast, accurate, and easy to use—all in one place!"
 ---
 <!-- Calculator start -->
-<main>
+
      <!-- Start DEMO HTML (Use the following code into your project)-->
      <div class="calculator">
         <input type="text" id="screen" maxlength="20">
@@ -53,7 +53,7 @@ description: "Find the perfect calculator for any task! Use our free online calc
       </div>
     </div>
      <!-- End Demo HTML (Happy Coding!)-->
- </main>
+
 
 
 <!-- calculator end -->

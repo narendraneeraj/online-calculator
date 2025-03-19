@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Us – Ecalcify | Your Ultimate Online Calculator Hub
+title: About Us | Your Ultimate Online Calculator Hub
 permalink: /about/
 description: "Ecalcify is your go-to online calculator platform, offering 500+ powerful calculators for finance, health, math, fitness, and more. Simplify your calculations with accuracy and ease—all in one place!"
 ---

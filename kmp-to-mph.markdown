@@ -1,6 +1,6 @@
 ---
 layout: default
-title: kmp to mph Speed Converter | eCalcify
+title: kmp to mph Speed Converter 
 permalink: /kmp-to-mph/
 description: "Quickly convert kilometers per hour to miles per hour (kmp to mph) with our free tool. Check out conversion tables and learn about other speed units today!"
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: dBm to Watts Calculator and Table | eCalcify
+title: dBm to Watts Calculator and Table
 permalink: /dbm-to-watt/
 description: "Convert dBm to Watts easily with our calculator. Explore dBm to Watts formula, tables, and charts at eCalcify for quick and accurate results."
 ---

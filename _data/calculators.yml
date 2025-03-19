@@ -1,5 +1,5 @@
 - name: "Age Calculator"
-  link: "age-calculator"
+  link: "/age-calculator"
   icon: "fa-child"
   color: "#B197FC"
 

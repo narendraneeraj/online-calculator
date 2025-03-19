@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Privacy Policy – Your Data Security at Ecalcify
-permalink: /privacy-policy/
+title: Privacy Policy – Your Data Security with us
 description: "At Ecalcify, we prioritize your privacy. Read our Privacy Policy to learn how we handle, protect, and use your data while providing 500+ free online calculators. Your security matters!"
 ---
 <h1>Privacy Policy | eCalcify</h1>
