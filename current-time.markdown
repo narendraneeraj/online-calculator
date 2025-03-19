@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Current Time and 10 ten city time
+layout: default
+title: Current Time in the World’s Top 10 Cities – Live Time Updates
 permalink: /current-time/
+description: "Check the current time in the top 10 cities worldwide, including New York, London, Tokyo, Dubai, and more. Get accurate, real-time updates for different time zones instantly!."
 ---
 
 
@@ -10,10 +11,9 @@ permalink: /current-time/
 <div class="col-md-3 bg-light">
 
 <div class="p-4 mb-2 bg-body-secondary">
-<p class="fs-2"> <a class="text-decoration-none" href="/countdown"><i class="fa-solid fa-stopwatch-20"></i>Countdown</a></p>
- <p class="fs-2"> <a class="text-decoration-none" href="/stop-watch"><i class="fa-solid fa-stopwatch"></i>StopWatch</a></p>
- <p class="fs-2"> <a class="text-decoration-none" href="#"><i class="fa-solid fa-bell"></i>Alarm Clock</a></p>
- <p class="fs-2"> <a class="text-decoration-none" href="/current-time"><i class="fa-solid fa-clock"></i>Time</a></p>
+ <p class="fs-2 "><a class="text-decoration-none" href="/countdown"><i class="fa-solid fa-stopwatch-20 me-3"></i>Countdown</a></p>
+ <p class="fs-2"> <a class="text-decoration-none" href="/stop-watch"><i class="fa-solid fa-stopwatch me-3"></i>StopWatch</a></p>
+ <p class="fs-2"> <a class="text-decoration-none" href="/current-time"><i class="fa-solid fa-clock me-3"></i>Time</a></p>
 </div>
 </div>
 

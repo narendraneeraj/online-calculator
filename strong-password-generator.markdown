@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Strong Password Generator | Cretae Password 
 permalink: /strong-password-generator/
 description: "Generate strong passwords to protect your onlineaccount with our random password generator. Mix letters, numbers and symbols for safe password."

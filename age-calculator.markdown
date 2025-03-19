@@ -1,11 +1,9 @@
 ---
-layout: page
+layout: default
 title: Age Calculator | Calculate My Age today | find my age
 permalink: /age-calculator/
 description: "Use our free Age Calculator to find your age from your birth date or see the age difference in days. It's quick and easy to find your age today!"
 ---
-
-
 <div class="container mt-5">
         <h1 class="text-center">Age Calculator</h1>
         <form id="ageForm" class="mt-4 ">
@@ -31,7 +29,7 @@ description: "Use our free Age Calculator to find your age from your birth date 
                 <li class="list-group-item" id="result5"></li>
                 <li class="list-group-item" id="result6"></li>
             </ul>
-        </div>
+</div>
     
 
    <!-- Article -->

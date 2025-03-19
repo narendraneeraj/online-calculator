@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Contact Us
+layout: default
+title: Contact Us – Get in Touch with Ecalcify
 permalink: /contact/
+description: "Have questions or feedback? Contact Ecalcify for support, suggestions, or inquiries. We're here to help you with our 500+ online calculators. Reach out today!"
 ---
 
 

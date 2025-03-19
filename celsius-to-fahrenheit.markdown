@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Celsius to Fahrenheit Temperature Converter
 permalink: /celsius-to-fahrenheit/
 description: "Quickly and accurately convert temperatures from Celsius (°C) to Fahrenheit (°F) with this easy-to-use tool."

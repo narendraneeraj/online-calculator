@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Terms and Condition
+layout: default
+title: Terms and Conditions – Ecalcify User Agreement
 permalink: /term-and-condition/
+description: "Read the Terms and Conditions of Ecalcify to understand the rules, policies, and guidelines for using our 500+ free online calculators. Stay informed and use our services responsibly!."
 ---
 
 <!-- Article Part -->

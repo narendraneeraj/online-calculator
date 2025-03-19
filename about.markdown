@@ -1,13 +1,12 @@
 ---
-layout: page
-title: About US
+layout: default
+title: About Us – Ecalcify | Your Ultimate Online Calculator Hub
 permalink: /about/
-description: "Learn more about our website, its purpose, and how it helps users."
+description: "Ecalcify is your go-to online calculator platform, offering 500+ powerful calculators for finance, health, math, fitness, and more. Simplify your calculations with accuracy and ease—all in one place!"
 ---
 
-
 <div class="container">
-  
+<h1>About US - eCalcify</h1>
 <p>Welcome to <strong>eCalcify</strong>, a free online calculator designed to make complex calculations easy and accessible for everyone.</p>
 <h3>Why We Built This</h3>
 <p>We believe that everyone should have access to accurate, easy-to-use, and reliable calculation tools without cost barriers. By making our calculator open-source, we invite developers, educators, and enthusiasts to contribute, improve, and expand its capabilities.</p>
@@ -30,7 +29,6 @@ description: "Learn more about our website, its purpose, and how it helps users.
                 <p>Share our project with others who might find it useful!</p>
             </div>
         </div>
-
 <div class="row mt-5 text-center">
             <div class="col-lg-12">
                 <h3>Join Us in Improving the Community</h3>
