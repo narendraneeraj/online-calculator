@@ -50,9 +50,6 @@ description: "Find the perfect calculator for any task! Use our free online calc
         </div>
       </div>
     </div>
-     <!-- End -->
-
-
 
 <!-- calculator end -->
 <div class="container py-5">
