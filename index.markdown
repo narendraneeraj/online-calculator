@@ -106,6 +106,94 @@ description: "Find the perfect calculator for any task! Use our free online calc
             </a>
         </div>
  </div>
+ <!-- conversion-tool -->
+<hr>
+<h2>Conversion Tool</h2>
+ <div class="row g-4 p-3 ">
+
+<div class="col-md-3 g-4 p-3  ">
+<a class="text-decoration-none" href="#">
+                <div class="calculator-box text-center">
+                    <i class="fa-solid fa-arrow-up-a-z fa-2xl py-4" style="color: #B197FC;"></i>
+                    <h5>Num to Word</h5>
+                </div>
+            </a>
+  </div>
+        
+ <div class="col-md-3 g-4 p-3  ">
+            <a class="text-decoration-none" href="#">
+                <div class="calculator-box text-center">
+                    <i class="fa-solid fa-weight-scale fa-2xl py-4" style="color: #B197FC;"></i>
+                    <h5>Weight Converter</h5>
+                </div>
+            </a>
+  </div>
+
+ <div class="col-md-3 g-4 p-3  ">
+            <a class="text-decoration-none" href="#">
+                <div class="calculator-box text-center">
+                    <i class="fa-solid fa-gauge fa-2xl py-4" style="color: #74C0FC;"></i>
+                    <h5>Speed Converter</h5>
+                </div>
+            </a>
+        </div>
+ <div class="col-md-3 g-4 p-3  ">
+            <a class="text-decoration-none" href="#">
+                <div class="calculator-box text-center">
+                    <i class="fa-solid fa-ruler-combined fa-2xl py-4" style="color: green;"></i>
+                    <h5>Area Converter</h5>
+                </div>
+            </a>
+        </div>
+ </div>
+
+  
+<!-- conversion-tool end-->
+<!-- Math Calculator -->
+<hr>
+<h2>Math Calculator</h2>
+ <div class="row g-4 p-3 ">
+
+<div class="col-md-3 g-4 p-3  ">
+<a class="text-decoration-none" href="#">
+                <div class="calculator-box text-center">
+                    <i class="fa-solid fa-circle-plus fa-2xl py-4" style="color: #B197FC;"></i>
+                    <h5>Algebra Calculator</h5>
+                </div>
+            </a>
+  </div>
+        
+ <div class="col-md-3 g-4 p-3  ">
+            <a class="text-decoration-none" href="#">
+                <div class="calculator-box text-center">
+                    <i class="fa-solid fa-circle-xmark fa-2xl py-4" style="color: #B197FC;"></i>
+                    <h5>LCM | HCF Calculator</h5>
+                </div>
+            </a>
+  </div>
+        
+ <div class="col-md-3 g-4 p-3  ">
+            <a class="text-decoration-none" href="/percentage-calculator">
+                <div class="calculator-box text-center">
+                    <i class="fa-solid fa-percent fa-2xl py-4" style="color: #63E6BE;"></i>
+                    <h5>Percentage Calculator</h5>
+                </div>
+            </a>
+        </div>
+
+ <div class="col-md-3 g-4 p-3  ">
+            <a class="text-decoration-none" href="#">
+                <div class="calculator-box text-center">
+                    <i class="fa-solid fa-plus-minus fa-2xl py-4" style="color: green;"></i>
+                    <h5>Interest Calculator</h5>
+                </div>
+            </a>
+        </div>
+ </div>
+
+
+
+<!-- Math Calculator Closed -->
 
 <p>Welcome to eCalcify! We have a range of free, easy-to-use calculators, conversion tools, and much more! <br>In today’s fast-paced digital world, having access to reliable and accurate tools is essential. Whether you’re crunching numbers, planning your finances, or solving complex equations, online calculators have become indispensable. Our platform offers a one-stop solution for all your calculation needs, combining accuracy, convenience, and a wide variety of free calculators.</p>
 
