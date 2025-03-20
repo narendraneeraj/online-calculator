@@ -30,25 +30,15 @@
   icon: "fa-temperature-three-quarters"
   color: ""
 
-- name: "Num to Word"
-  link: "/number-to-word-converter"
-  icon: "fa-arrow-up-a-z"
-  color: ""
 
 - name: "Strong Password Generator"
   link: "/strong-password-generator"
   icon: "fa-lock"
   color: "#e60f19"
 
-- name: "Percentage Calculator"
-  link: "/percentage-calculator"
-  icon: "fa-percent"
-  color: "#63E6BE"
 
-- name: "Timer"
-  link: "/stop-watch"
-  icon: "fa-hourglass"
-  color: "#e60f19"
+
+
 
  
   

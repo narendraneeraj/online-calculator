@@ -87,4 +87,3 @@ function exportCSV() {
     a.download = "stopwatch_times.csv";
     a.click();
 }
-

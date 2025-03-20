@@ -38,3 +38,14 @@ let countdown;
             clearInterval(countdown);
             document.getElementById('customTime').removeAttribute('disabled');
         }
+
+        function toggleFullscreen() {
+            let timerDisplay = document.getElementById('timerDisplay');
+            if (!document.fullscreenElement) {
+                timerDisplay.requestFullscreen().catch(err => {
+                    console.log(`Error attempting to enable full-screen mode: ${err.message}`);
+                });
+            } else {
+                document.exitFullscreen();
+            }
+        }

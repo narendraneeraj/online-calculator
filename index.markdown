@@ -112,7 +112,7 @@ description: "Find the perfect calculator for any task! Use our free online calc
  <div class="row g-4 p-3 ">
 
 <div class="col-md-3 g-4 p-3  ">
-<a class="text-decoration-none" href="#">
+<a class="text-decoration-none" href="/number-to-word-converter">
                 <div class="calculator-box text-center">
                     <i class="fa-solid fa-arrow-up-a-z fa-2xl py-4" style="color: #B197FC;"></i>
                     <h5>Num to Word</h5>
