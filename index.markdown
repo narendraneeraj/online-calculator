@@ -67,6 +67,45 @@ description: "Find the perfect calculator for any task! Use our free online calc
         </div>
         {% endfor %}
 </div>
+<hr>
+<h2>Timer</h2>
+ <div class="row g-4 p-3 ">
+
+<div class="col-md-3 g-4 p-3  ">
+<a class="text-decoration-none" href="/countdown">
+                <div class="calculator-box text-center">
+                    <i class="fa-solid fa-stopwatch-20 fa-2xl py-4" style="color: #B197FC;"></i>
+                    <h5>Countdown</h5>
+                </div>
+            </a>
+  </div>
+        
+ <div class="col-md-3 g-4 p-3  ">
+            <a class="text-decoration-none" href="/stop-watch">
+                <div class="calculator-box text-center">
+                    <i class="fa-solid fa-stopwatch fa-2xl py-4" style="color: #B197FC;"></i>
+                    <h5>StopWatch</h5>
+                </div>
+            </a>
+  </div>
+        
+ <div class="col-md-3 g-4 p-3  ">
+            <a class="text-decoration-none" href="/current-time">
+                <div class="calculator-box text-center">
+                    <i class="fa-solid fa-clock fa-2xl py-4" style="color: #74C0FC;"></i>
+                    <h5>Current Timer zone</h5>
+                </div>
+            </a>
+        </div>
+ <div class="col-md-3 g-4 p-3  ">
+            <a class="text-decoration-none" href="#">
+                <div class="calculator-box text-center">
+                    <i class="fa-solid fa-bell fa-2xl py-4" style="color: green;"></i>
+                    <h5>Alarm</h5>
+                </div>
+            </a>
+        </div>
+ </div>
 
 <p>Welcome to eCalcify! We have a range of free, easy-to-use calculators, conversion tools, and much more! <br>In today’s fast-paced digital world, having access to reliable and accurate tools is essential. Whether you’re crunching numbers, planning your finances, or solving complex equations, online calculators have become indispensable. Our platform offers a one-stop solution for all your calculation needs, combining accuracy, convenience, and a wide variety of free calculators.</p>
 
