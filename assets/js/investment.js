@@ -67,3 +67,16 @@ const form = document.getElementById('calculatorForm');
         // Show results section
         resultsSection.style.display = 'block';
     });
+
+
+    document.getElementById("years").addEventListener("input", function () {
+        let ageInput = document.getElementById("years");
+        let errorMessage = document.getElementById("error-message");
+
+        if (ageInput.value > 100) {
+            errorMessage.style.display = "block";  // Show error message
+            ageInput.value = 100;  // Set value to 100 to prevent higher input
+        } else {
+            errorMessage.style.display = "none"; // Hide error message
+        }
+    });

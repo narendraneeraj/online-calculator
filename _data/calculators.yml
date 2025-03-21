@@ -36,6 +36,14 @@
   icon: "fa-lock"
   color: "#e60f19"
 
+  
+- name: "Investment Calculator"
+  link: "/investment-calculator"
+  icon: "fa-money-bill-trend-up"
+  color: "#74C0FC"
+
+
+
 
 
 
