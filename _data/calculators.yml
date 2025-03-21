@@ -42,6 +42,13 @@
   icon: "fa-money-bill-trend-up"
   color: "#74C0FC"
 
+- name: "World Clock"
+  link: "/world-clock"
+  icon: "fa-earth-americas"
+  color: "#74C0FC"
+
+
+
 
 
 
