@@ -164,7 +164,7 @@ description: "Find the perfect calculator for any task! Use our free online calc
   </div>
         
  <div class="col-md-3 g-4 p-3  ">
-            <a class="text-decoration-none" href="#">
+            <a class="text-decoration-none" href="/lcm-calculator">
                 <div class="calculator-box text-center">
                     <i class="fa-solid fa-circle-xmark fa-2xl py-4" style="color: #B197FC;"></i>
                     <h5>LCM | HCF Calculator</h5>
