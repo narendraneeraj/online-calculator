@@ -62,7 +62,7 @@ description: "Easily track time across multiple cities with our customizable wor
  <button class="btn btn-primary" onclick="addManualCity()">Add City</button>
 </div>
 <hr>
-
+<div class="text-start">
 <h2> World Clock App</h2>
 <p>In today&rsquo;s interconnected world, keeping track of different time zones is essential for professionals, travelers, and remote teams. A <strong>world clock</strong> helps users stay synchronized with international schedules, ensuring smooth communication across borders. Whether you need a <strong>world clock with seconds</strong>, a <strong>multiple time zone clock</strong>, or a <strong>world timer</strong>, this guide explores the best tools and apps available.</p>
 <h2>Understanding a Global Time Clock</h2>
@@ -89,7 +89,7 @@ description: "Easily track time across multiple cities with our customizable wor
 <p><strong>User-friendly Interface</strong>: Easy-to-use design for quick time checks.</p>
 </li>
 </ul>
-
+</div>
 
 
  </div>
