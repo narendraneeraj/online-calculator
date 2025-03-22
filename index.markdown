@@ -3,6 +3,7 @@ layout: default
 title: Free Online Calculator | All type of Calculator
 description: "Find the perfect calculator for any task! Use our free online calculators for finance, health, math, fitness, and more. Fast, accurate, and easy to use—all in one place!"
 ---
+<link rel="stylesheet" href="{{ '/assets/css/calculator.css' | relative_url }}">
 <!-- Calculator start -->
 <div class="calculator">
   <input type="text" id="screen" maxlength="20">
