@@ -5,35 +5,35 @@ permalink: /age-calculator/
 description: "Use our free Age Calculator to find your age from your birth date or see the age difference in days. It's quick and easy to find your age today!"
 ---
 <div class="container mt-5">
-        <h1 class="text-center">Age Calculator</h1>
-        <form id="ageForm" class="mt-4 ">
-            <div class="row mb-4 gap-4">
-                <div class="col-md-5 py-4 shadow bg-body-tertiary rounded text-center">
-                    <label for="startDate" class="form-label"><strong>Start Date</strong></label>
-                    <input type="date" id="startDate" class="form-control" required>
-                </div>
-                <div class="col-md-5 py-4 shadow rounded text-center ">
-                    <label for="endDate" class="form-label"><strong>End Date</strong></label>
-                    <input type="date" id="endDate" class="form-control" value="" required>
-                </div>
-            </div>
-            <button type="button" id="calculateBtn" class="btn btn-danger">Calculate Age</button>
-        </form>
-        <div class="mt-4" id="results" style="display: none;">
-            <h3>Results</h3>
-            <ul class="list-group">
-                <li class="list-group-item" id="result1"></li>
-                <li class="list-group-item" id="result2"></li>
-                <li class="list-group-item" id="result3"></li>
-                <li class="list-group-item" id="result4"></li>
-                <li class="list-group-item" id="result5"></li>
-                <li class="list-group-item" id="result6"></li>
-            </ul>
+<h1 class="text-center">Age Calculator</h1>
+  <form id="ageForm" class="mt-4 ">
+    <div class="row mb-4 gap-4">
+      <div class="col-md-5 py-4 shadow bg-body-tertiary rounded text-center">
+        <label for="startDate" class="form-label"><strong>Start Date</strong></label>
+        <input type="date" id="startDate" class="form-control" required>
+       </div>
+         <div class="col-md-5 py-4 shadow rounded text-center ">
+         <label for="endDate" class="form-label"><strong>End Date</strong></label>
+         <input type="date" id="endDate" class="form-control" value="" required>
+         </div>
+         </div>
+        <button type="button" id="calculateBtn" class="btn btn-danger">Calculate Age</button>
+       </form>
+      <div class="mt-4" id="results" style="display: none;">
+       <h3>Results</h3>
+          <ul class="list-group">
+           <li class="list-group-item" id="result1"></li>
+           <li class="list-group-item" id="result2"></li>
+           <li class="list-group-item" id="result3"></li>
+           <li class="list-group-item" id="result4"></li>
+           <li class="list-group-item" id="result5"></li>
+           <li class="list-group-item" id="result6"></li>
+   </ul>
 </div>
     
 
    <!-- Article -->
-<p class="pt-5">Last updated: March 04, 2025</p>
+<p class="pt-5">Last updated: March 20, 2025</p>
 <h2><strong>What is the Age Calculator</strong></h2>
 <p>An age calculator is a tool that helps you figure out how old someone or something is. You just need to enter the date of birth (or when something started) and the current date. It will calculate the number of years, months, weeks and days.</p>
 <p>It&rsquo;s like a super fast math helper that saves you from doing the subtraction and counting yourself!</p>
