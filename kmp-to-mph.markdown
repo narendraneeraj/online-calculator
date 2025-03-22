@@ -1,8 +1,8 @@
 ---
 layout: default
-title: kmp to mph Speed Converter 
+title: KMPH to MPH Speed Converter | Convert Kilometers Per Hour to Miles Per Hour 
 permalink: /kmp-to-mph/
-description: "Quickly convert kilometers per hour to miles per hour (kmp to mph) with our free tool. Check out conversion tables and learn about other speed units today!"
+description: "Easily convert kilometers per hour to miles per hour (kmp to mph) with our free tool. Check out conversion tables and learn about other speed units today!"
 ---
 <div class="container d-flex justify-content-center align-items-center full-height">
         <div class="col-12 col-sm-8 col-md-6 col-lg-4">
@@ -24,12 +24,13 @@ description: "Quickly convert kilometers per hour to miles per hour (kmp to mph)
             </div>
         </div>
     </div>
-<h1>kmp to mph Speed Converter</h1>
-<p>When it comes to speed limits, how well a car performs, or how far you need to travel, you may have to change kilometers per hour (km/h) into miles per hour (mph). This change is helpful for travelers, drivers, and sports fans who want to know speed measurements in various countries</p>
+<h1>KMPH to MPH Speed Converter</h1>
+<p>kilometers per hour (km/h) and Miles per hour (mph), When it comes to speed limits, how well a car performs, or how far you need to travel, you may have to change kilometers per hour (km/h) into miles per hour (mph). This change is helpful for travelers, drivers, and sports fans who want to know speed measurements in various countries</p>
 
 <h3>How to Convert Kmph to Mph</h3>
 <p>To convert kilometers per hour (km/h) to miles per hour (mph), use the following formula:</p> 
-<p class="display-4"> $$ \text{mph} = \text{km/h} \times 0.621371 $$  </p>
+<!-- Formula -->
+<p class="display-4"> $$ \text{km/h} = \text{mph} \times 1.60934 $$  </p>
    
 <h4>Examples:</h4>
 <ul>
@@ -65,10 +66,11 @@ description: "Quickly convert kilometers per hour to miles per hour (kmp to mph)
 <h3>Quick Reference for Common Speeds</h3>
 <ul><li>60 km/h ≈ 37.28 mph (Typical city speed limit)</li><li>100 km/h ≈ 62.14 mph (Highway speed)</li><li>120 km/h ≈ 74.56 mph (Fast highway speed)</li><li>328 km/h ≈ 203.81 mph (Supercar speed)</li></ul>  
 
+<hr>
+<a href="/mph-to-kmph" class="btn btn-success w-30">Convert Mph to KM/H</a>
+
 
 <script src="{{ '/assets/js/kmp-mph.js' | relative_url }}"></script>
-
-
 <!-- math formula script -->
 <script type="text/javascript" async src="https://polyfill.io/v3/polyfill.min.js?features=es6"> </script>
 <script type="text/javascript" async  id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>  
