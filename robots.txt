@@ -1,4 +1,16 @@
 User-agent: *
 Allow: /
 
+
+Disallow: /age-calculator.html
+Disallow: /celsius-to-fahrenheit.html
+Disallow: /dbm-to-watt.html
+Disallow: /fahrenheit-to-celsius.html
+Disallow: /home-loan-calculator.html
+Disallow: /investment-calculator.html
+Disallow: /love-calculator.html
+Disallow: /number-to-word-converter.html
+Disallow: /percentage-calculator.html
+Disallow: /strong-password-generator.html
+
 Sitemap: https://ecalcify.com/sitemap.xml
