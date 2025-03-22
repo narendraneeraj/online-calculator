@@ -80,7 +80,7 @@ description: "Easily convert measurements with our Length Converter. Switch betw
                 let url = conversion.toLowerCase().replace(/ /g, "-"); // Convert to lowercase and replace spaces with '-'
                 document.write(`
                     <div class="col-md-4 col-lg-2">
-                        <a href="/length-converter/${url}" class="text-dark text-decoration-none">
+                        <a href="/length-converter/#${url}" class="text-dark text-decoration-none">
                             <div class="p-3 bg-light text-center rounded shadow transition conversion-box">
                                 ${conversion}
                             </div>
