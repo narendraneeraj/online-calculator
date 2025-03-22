@@ -4,15 +4,18 @@ title: Length Converter | Easily Convert Between Different Units of Measurement
 permalink: /length-converter/
 description: "Easily convert measurements with our Length Converter. Switch between units instantly and get accurate results in just a few clicks!"
 ---
-
-<div class="container mt-5">
+<style>
+ .conversion-box:hover {
+            background-color:rgb(152, 196, 243) !important; /* Bootstrap primary color */
+            color: white !important;
+  }
+</style>
+<div class="container p-4">
     <div class="card shadow-lg p-4 col-12 col-sm-8 col-md-6">
         <h2 class="text-center mb-4">Length Converter</h2>
-
  <div class="mb-3">
             <input type="number" id="inputValue" class="form-control" placeholder="Enter value">
         </div>
-
 <div class="mb-3">
             <select id="conversionType" class="form-select">
                 <option value="cmToInches">CM to Inches</option>
@@ -57,6 +60,35 @@ description: "Easily convert measurements with our Length Converter. Switch betw
             <h4>Result: <span id="result">-</span></h4>
         </div>
     </div>
+</div>
+
+<!-- length convert -->
+<div class="row g-3">
+        <script>
+            const conversions = [
+                "CM to Inches", "Inches to CM", "MM to Inches", "Inches to MM",
+                "Meters to Feet", "Feet to Meters", "KM to Miles", "Miles to KM",
+                "CM to Feet", "Feet to CM", "Inches to Feet", "Feet to Inches",
+                "Meters to Yards", "Yards to Meters", "MM to CM", "CM to MM",
+                "CM to KM", "KM to CM", "MM to Feet", "Feet to MM",
+                "Meters to Miles", "Miles to Meters", "Feet to Miles", "Miles to Feet",
+                "Yards to Feet", "Feet to Yards", "Inches to Meters", "Meters to Inches",
+                "KM to MM", "MM to KM", "Inches to Yards", "Yards to Inches",
+                "Yards to Miles", "Miles to Yards"
+            ];
+            conversions.forEach(conversion => {
+                let url = conversion.toLowerCase().replace(/ /g, "-"); // Convert to lowercase and replace spaces with '-'
+                document.write(`
+                    <div class="col-md-4 col-lg-2">
+                        <a href="/length-converter/${url}" class="text-dark text-decoration-none">
+                            <div class="p-3 bg-light text-center rounded shadow transition conversion-box">
+                                ${conversion}
+                            </div>
+                        </a>
+                    </div>
+                `);
+            });
+ </script>
 </div>
 
 <!-- Article part -->
