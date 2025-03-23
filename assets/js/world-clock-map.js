@@ -66,3 +66,4 @@ map.on('click', function (e) {
     var lng = e.latlng.lng;
     fetchTime(lat, lng);
 });
+

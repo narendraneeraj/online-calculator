@@ -47,6 +47,11 @@
   icon: "fa-earth-americas"
   color: "#74C0FC"
 
+- name: "World Clock Map"
+  link: "/world-clock-map"
+  icon: "fa-earth-europe"
+  color: "#B197FC"
+
 
 
 
