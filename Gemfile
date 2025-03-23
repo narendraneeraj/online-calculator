@@ -35,5 +35,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 #sitemap
 gem 'jekyll-sitemap'
 
-#minifier
-gem 'jekyll-minifier'
+
