@@ -63,7 +63,7 @@ description: "Easily convert measurements with our Length Converter. Switch betw
 </div>
 
 <!-- length convert -->
-<div class="row g-3">
+<div class="row g-3 fw-semibold">
         <script>
             const conversions = [
                 "CM to Inches", "Inches to CM", "MM to Inches", "Inches to MM",
@@ -80,7 +80,7 @@ description: "Easily convert measurements with our Length Converter. Switch betw
                 let url = conversion.toLowerCase().replace(/ /g, "-"); // Convert to lowercase and replace spaces with '-'
                 document.write(`
                     <div class="col-md-4 col-lg-2">
-                        <a href="/length-converter/#${url}" class="text-dark text-decoration-none">
+                        <a href="/length-converter/${url}" class="text-dark text-decoration-none">
                             <div class="p-3 bg-light text-center rounded shadow transition conversion-box">
                                 ${conversion}
                             </div>
