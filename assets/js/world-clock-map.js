@@ -1,62 +1,68 @@
+// Initialize the map
+var map = L.map('map').setView([20, 0], 2);
 
-// Initialize OpenLayers map
-var map = new ol.Map({
-    target: 'map',
-    layers: [
-        new ol.layer.Tile({
-            source: new ol.source.OSM()
+// Add OpenStreetMap tile layer
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+// Function to fetch and display time
+function fetchTime(lat, lng) {
+    const apiKey = "NKF8Y13V8FVT"; // Replace with your TimeZoneDB API key
+    const url = `https://api.timezonedb.com/v2.1/get-time-zone?key=${apiKey}&format=json&by=position&lat=${lat}&lng=${lng}`;
+
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === "OK") {
+                const timeString = data.formatted; // 2025-03-23 15:30:45
+                const dateObj = new Date(timeString.replace(" ", "T")); // Convert to Date object
+                
+                const hours = dateObj.getHours();
+                const minutes = dateObj.getMinutes();
+                const seconds = dateObj.getSeconds();
+                
+                updateClock(hours, minutes, seconds);
+                
+                document.getElementById("time-display").innerHTML = `
+<div class="d-flex justify-content-between flex-wrap text-center fs-5 font-monospace">
+   <strong>Timezone: ${data.zoneName} </strong>
+    <strong>Location: ${data.cityName}, ${data.countryName} </strong>
+    <strong>Current Time: ${formatTime(hours, minutes, seconds)}</strong>
+    <strong>Date:${dateObj.toDateString()} </strong> 
+</div>`;
+                
+                document.getElementById("digital-clock").innerText = formatTime(hours, minutes, seconds);
+                document.getElementById("date-display").innerText = dateObj.toDateString();
+            } else {
+                document.getElementById("time-display").innerText = "Time data unavailable.";
+            }
         })
-    ],
-    view: new ol.View({
-        center: ol.proj.fromLonLat([0, 20]), // Default center
-        zoom: 2
-    })
-});
+        .catch(error => {
+            console.error("Error fetching time data:", error);
+            document.getElementById("time-display").innerText = "Error fetching time.";
+        });
+}
 
-// Load Timezone Boundaries (GeoJSON)
-var timezoneLayer = new ol.layer.Vector({
-    source: new ol.source.Vector({
-        url: 'https://raw.githubusercontent.com/evansiroky/timezone-boundary-builder/master/combined.json',
-        format: new ol.format.GeoJSON()
-    }),
-    style: new ol.style.Style({
-        stroke: new ol.style.Stroke({
-            color: 'rgba(255, 0, 0, 0.5)',
-            width: 1
-        }),
-        fill: new ol.style.Fill({
-            color: 'rgba(255, 165, 0, 0.2)' // Light shading for timezone areas
-        })
-    })
-});
-map.addLayer(timezoneLayer);
+// Format time in 24-hour format
+function formatTime(h, m, s) {
+    return `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+}
 
-// On map click, fetch timezone & local time
-map.on('singleclick', async function(event) {
-    var coordinate = ol.proj.toLonLat(event.coordinate);
-    let lat = coordinate[1].toFixed(2);
-    let lng = coordinate[0].toFixed(2);
+// Function to update analog clock
+function updateClock(hours, minutes, seconds) {
+    const hourDeg = (hours % 12) * 30 + minutes * 0.5; // 360° / 12 = 30° per hour
+    const minuteDeg = minutes * 6; // 360° / 60 = 6° per minute
+    const secondDeg = seconds * 6; // 360° / 60 = 6° per second
 
-    document.getElementById("lat").textContent = lat;
-    document.getElementById("lng").textContent = lng;
+    document.getElementById("hour-hand").style.transform = `translateX(-50%) rotate(${hourDeg}deg)`;
+    document.getElementById("minute-hand").style.transform = `translateX(-50%) rotate(${minuteDeg}deg)`;
+    document.getElementById("second-hand").style.transform = `translateX(-50%) rotate(${secondDeg}deg)`;
+}
 
-    // Fetch timezone data from GeoNames API
-    let response = await fetch(`https://api.geonames.org/timezoneJSON?lat=${lat}&lng=${lng}&username=demo`); // Replace 'demo' with your username
-    let data = await response.json();
-
-    if (data && data.timezoneId) {
-        document.getElementById("city").textContent = data.countryName || "Unknown";
-        document.getElementById("timezone").textContent = data.timezoneId;
-
-        function updateClock() {
-            let now = moment().tz(data.timezoneId).format("HH:mm:ss");
-            document.getElementById("localtime").textContent = now;
-        }
-
-        updateClock();
-        setInterval(updateClock, 1000);
-    } else {
-        document.getElementById("timezone").textContent = "Timezone not found";
-        document.getElementById("localtime").textContent = "-";
-    }
+// Handle map clicks
+map.on('click', function (e) {
+    var lat = e.latlng.lat;
+    var lng = e.latlng.lng;
+    fetchTime(lat, lng);
 });
