@@ -22,7 +22,7 @@ title: "eCalcify"
 email: care@ecalcify.com
 description: >- # this means to ignore newlines until "baseurl:"
  eCalcify offers a comprehensive range of free online calculators for every need. Experience effortless calculations with our intuitive platform now!.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://ecalcify.com" # the subpath of your site, e.g. /blog
 url: "https://ecalcify.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll

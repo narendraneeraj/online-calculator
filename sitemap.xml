@@ -1,58 +1,16 @@
+---
+layout: none
+---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-<url>
-<loc>https://ecalcify.com/about/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/age-calculator/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/celsius-to-fahrenheit/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/contact/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/countdown/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/current-time/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/dbm-to-watt/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/help/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/home-loan-calculator/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/kmp-to-mph/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/number-to-word-converter/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/percentage-calculator/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/privacy-policy/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/stop-watch/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/strong-password-generator/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/term-and-condition/</loc>
-</url>
-<url>
-<loc>https://ecalcify.com/world-clock/</loc>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for page in site.pages %}
+  {% if page.url != "/404.html" %}
+  <url>
+    <loc>{{ site.url }}{{ page.url | replace:'index.html','' }}</loc>
+    <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  {% endif %}
+  {% endfor %}
 </urlset>

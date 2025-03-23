@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Online Stopwatch | Digital Stopwatch - Easy to Use
-permalink: /stop-watch/
+permalink: /stopwatch/
 description: "Use our online stopwatch, Accurate and user-friendly. Track lap times with export in CSV, Digital stopwatch, and enjoy optional split intervals for your timing needs."
 ---
 <!-- Sidebar -->
@@ -9,7 +9,7 @@ description: "Use our online stopwatch, Accurate and user-friendly. Track lap ti
 <div class="col-md-3 bg-light">
 <div class="p-4 mb-2 bg-body-secondary">
  <p class="fs-2 "><a class="text-decoration-none" href="/countdown"><i class="fa-solid fa-stopwatch-20 me-3"></i>Countdown</a></p>
- <p class="fs-2"> <a class="text-decoration-none" href="/stop-watch"><i class="fa-solid fa-stopwatch me-3"></i>StopWatch</a></p>
+ <p class="fs-2"> <a class="text-decoration-none" href="/stopwatch"><i class="fa-solid fa-stopwatch me-3"></i>StopWatch</a></p>
  <p class="fs-2"> <a class="text-decoration-none" href="/current-time"><i class="fa-solid fa-clock me-3"></i>Time</a></p>
 </div>
 </div>

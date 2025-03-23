@@ -9,7 +9,7 @@ description: "Use our free countdown timer and digital countdown clock to track 
 <div class="col-md-3 bg-light">
 <div class="p-4 mb-2 bg-body-secondary">
  <p class="fs-2 "><a class="text-decoration-none" href="/countdown"><i class="fa-solid fa-stopwatch-20 me-3"></i>Countdown</a></p>
- <p class="fs-2"> <a class="text-decoration-none" href="/stop-watch"><i class="fa-solid fa-stopwatch me-3"></i>StopWatch</a></p>
+ <p class="fs-2"> <a class="text-decoration-none" href="/stopwatch"><i class="fa-solid fa-stopwatch me-3"></i>StopWatch</a></p>
  <p class="fs-2"> <a class="text-decoration-none" href="/current-time"><i class="fa-solid fa-clock me-3"></i>Time</a></p>
 </div>
 </div>
