@@ -2,7 +2,7 @@
 layout: default
 title: Kelvin to Celsius Calculator - Convert K to °C Easily
 permalink: /kelvin-to-celsius/
-description: "Quickly and accurately convert temperatures from Celsius (°C) to Fahrenheit (°F) with this easy-to-use tool."
+description: "Convert Kelvin to Celsius quickly and accurately with our easy-to-use calculator! Perfect for science, weather, and school projects. Get results instantly!"
 ---
 <div class="container mt-5">
   <div class="row justify-content-center">

@@ -2,7 +2,7 @@
 layout: default
 title: Fahrenheit to Kelvin Converter - convert °F to K Easily
 permalink: /fahrenheit-to-kelvin/
-description: "Quickly and accurately convert temperatures from Celsius (°C) to Fahrenheit (°F) with this easy-to-use tool."
+description: "Convert Fahrenheit to Kelvin easily with our simple online tool! Get accurate results in just a few clicks. Start converting now!"
 ---
 <div class="container mt-5">
   <div class="row justify-content-center">
