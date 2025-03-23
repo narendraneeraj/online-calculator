@@ -27,7 +27,6 @@ description: "Convert Kelvin to Fahrenheit easily with our simple calculator! Ge
     </div>
   </div>
 </div>
-
 <hr>
 
 <div class="row justify-content-center">
