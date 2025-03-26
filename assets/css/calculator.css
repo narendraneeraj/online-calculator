@@ -347,13 +347,17 @@ background: none repeat scroll 0 0 #e74c3c;
     
     input[type=text] {
     width: 315px;
+    max-width: 315px;
+    /* width: 100%; */
         height: 40px;
         border-radius: 5px;
         border: 0px;
         background-color: #333333;
         color: #d9d9d9;
         padding: 0 5px 0 5px;
-        margin: 0 0px 10px 84px;
+        /* margin: 0 0px 10px 84px; */
+        margin: 0 auto 10px;
+        display: block;
     }
     
     .calc-buttons {
@@ -409,4 +413,12 @@ background: none repeat scroll 0 0 #e74c3c;
     
     #footer {
         color: azure;
+    }
+
+    @media (max-width: 480px) {
+        input[type="text"] {
+            max-width: 90%; /* Adjust width for small screens */
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
